@@ -50,7 +50,7 @@ public class Solution {
             MID = res[RL / 2 - 1];
             MID2 = res[RL / 2];
 
-            MID = (MID + MID2) / 2;
+            MID = (float)(MID + MID2) / 2;
         }
         else{
 
