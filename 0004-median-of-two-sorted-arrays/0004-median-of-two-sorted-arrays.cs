@@ -39,7 +39,7 @@ public class Solution {
             now++;
         }
 
-        double MID;
+        double MID = 0;
 
         int MID2;
 
