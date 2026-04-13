@@ -39,7 +39,7 @@ public class Solution {
             now++;
         }
 
-        float MID;
+        double MID;
 
         int MID2;
 
@@ -50,11 +50,11 @@ public class Solution {
             MID = res[RL / 2 - 1];
             MID2 = res[RL / 2];
 
-            MID = (float)(MID + MID2) / 2;
+            MID = (double)(MID + MID2) / 2;
         }
         else{
 
-            MID = (float)res[(RL + 1) / 2 - 1];
+            MID = (double)res[(RL + 1) / 2 - 1];
         }
 
         return MID;
