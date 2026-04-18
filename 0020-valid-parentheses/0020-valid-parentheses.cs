@@ -11,7 +11,7 @@ public class Solution {
             }
             else{
 
-                if(stack.Count == 0){
+                if(stack.Count == 0){ //判斷有沒有佐括號
 
                     return false;
                 }
@@ -35,7 +35,7 @@ public class Solution {
             }
         }
 
-        if(stack.Count != 0){
+        if(stack.Count != 0){//確認所有括號都有另一半
 
             return false;
         }
